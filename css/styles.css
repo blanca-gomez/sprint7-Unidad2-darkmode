@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+}
+.app header{
+    width:100%;
+}
+
+.container img{
+    width: 100%;
+    display: block;
+}
+header h3 {
+    color: black; 
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.dark{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+label{
+    font-size: 25px;
+}
+
+#button-dark{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #C8C8C8;
+    border: none;
+}
+
+.button-icon img {
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 50%;
+    float: left;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.container-text h1 {
+    width: 70%; 
+    margin: 15px auto 0; 
+    font-size: 40px;
+}
+
+.container-text p {
+    width: 70%; 
+    margin: 10 auto; 
+}
+
+/* Estilos para el botón de modo oscuro */
+
+
+/* Estilos específicos para el modo oscuro */
+.dark-mode {
+    background-color: #222; /* Cambia el color de fondo solo en modo oscuro */
+}
+
+/* Cambia el color de las letras en modo oscuro */
+.dark-mode * {
+    color: white; /* Cambia el color de todas las letras en modo oscuro */
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+/* Estilos para el texto del título en modo oscuro */
+.dark-mode header h3 {
+    color: white; /* Color del texto del título en modo oscuro */
+}
+
+/* Estilos para el texto del label en modo claro */
+label {
+    font-size: 20px;
+    color: black; /* Color del texto en modo claro */
+}
+
+/* Estilos para el texto del label en modo oscuro */
+.dark-mode label {
+    color: white; /* Color del texto en modo oscuro */
+}
+
+.dark-mode .button-icon img {
+    content: url('/sprint7-Unidad2-darkmode/assets/luna.png');
+    background-color: blue;
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    float: right;
+}
